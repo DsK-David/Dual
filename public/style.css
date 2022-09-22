@@ -1,0 +1,141 @@
+body{
+    background: #181920;
+    font-size: 15pt;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #1d2027;
+    margin-left: 80px;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+.container .user_name,.user_email,.user_password{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 290px;
+    margin-top: 10px;
+    background: #252A34;
+    color:#fff;
+
+}
+.btn{
+    margin-top: 30px;
+    padding: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 26px;
+    width: 300px;
+    background: #5568FE;
+}
+.profile_content{
+    width: 100px;
+    padding: 10px;
+    background: #5568FE;
+    margin-left: 1130px;
+}
+.profile_content a{
+    color: #fff;
+    text-decoration: none;
+}
+.search_content{
+   width: 400px;
+   height: 150px;
+   margin-left: 450px;
+}
+.search_content input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 350px;
+    margin-top: 10px;
+    background: #252A34;
+    color:#fff;
+}
+.search_content i{
+    padding: 9px;
+    color: #fff;
+    background: #252A34;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.post_content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 100%;
+    margin-top:100px;
+}
+.post_content div{
+    width:700px;
+    height: 250px;
+    background: #252A34;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 15px;
+
+}
+.post_content strong{
+    font-weight: 900;
+    color: #5568FE;
+}
+.reactions{
+    width: 700px;
+    height: 50px;
+    border-top: 1px solid #111;
+}
+.post_content i {
+    color: red;
+}
+span{
+    color: #fff;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.author{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width:320px){
+    .search_content{
+        width: 300px;
+        margin-left: 10px;
+
+    }
+    .search_content input{
+        width: 250px;
+    }
+    .post_content div{
+        width: 300px;
+        height: 300px;
+        font-size: 15px;
+    }
+    .profile_content{
+        margin-left: 10px;
+        opacity:1;
+        padding: 6px;
+    }
+}
